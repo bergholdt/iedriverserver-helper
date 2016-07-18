@@ -1,0 +1,5 @@
+#! /usr/bin/env ruby
+
+require "ie_driver_server/helper"
+
+IEDriverServer::Helper.new.run *ARGV
